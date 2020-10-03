@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	apples := 20
+	apples := 25
 	cakes := 20
 	fpb := CalculateBoxFactor(apples, cakes)
 	totalItemApple, totalItemCake := CalculatePartOfItem(apples, cakes, fpb)
